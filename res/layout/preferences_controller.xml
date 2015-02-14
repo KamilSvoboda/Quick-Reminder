@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content" android:layout_width="wrap_content"
+	android:orientation="vertical" android:padding="10dip" android:gravity="left">
+	<TextView android:id="@+id/set_interval" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="@string/interval_tooltip" />
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<Button android:id="@+id/rem_from_interval" android:layout_width="50dp"
+			android:layout_height="wrap_content" android:text="@string/rem_from_interval" />
+		<EditText android:id="@+id/intervalEditText"
+			android:layout_width="50dp" android:layout_height="wrap_content"
+			android:inputType="number" />
+		<Button android:id="@+id/add_to_interval" android:layout_width="50dp"
+			android:layout_height="wrap_content" android:text="@string/add_to_interval" />
+	</LinearLayout>
+	<LinearLayout android:paddingTop="20dp" android:orientation="horizontal" android:gravity="center_horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<Button android:id="@+id/pref_ok" android:layout_height="wrap_content"
+			android:layout_width="100dp" android:text="@string/pref_ok" />
+	</LinearLayout>
+</LinearLayout>

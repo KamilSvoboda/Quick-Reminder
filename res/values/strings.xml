@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Quick Reminder</string>
+	<string name="welcome">Optional text:</string>
+	<string name="empty_reminder_text">It\'s time!</string>
+	<string name="set_reminder">Schedule</string>
+	<string name="cancel_reminder">Cancel</string>
+	<string name="reminder_scheduled">Reminder scheduled to</string>
+	<string name="notification_started">Notification started</string>
+	<string name="alert_close">Close</string>
+	<string name="alert_reset">Re-set</string>
+	<string name="preferences">Preferences</string>
+	<string name="interval_tooltip">Default shift of new\nreminder:</string>
+	<string name="add_to_interval">+</string>
+	<string name="rem_from_interval">-</string>
+	<string name="pref_ok">OK</string>
+</resources>
